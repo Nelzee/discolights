@@ -1,0 +1,17 @@
+:root {
+  --clr: rgba(0, 0, 0, 0.2);
+  --clr1: rgba(0, 0, 6, 0.2);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background: linear-gradient(to right, var(--clr), var(--clr1));
+}
