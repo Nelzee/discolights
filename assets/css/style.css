@@ -1,13 +1,13 @@
 :root {
-  --clr: rgba(0, 0, 0, 0.2);
-  --clr1: rgba(0, 0, 6, 0.2);
+  --clr: rbga(0, 0, 0, 0.5);
+  --clr1: rbga(0, 0, 0, 0.5);
 }
 
 *,
 *::before,
 *::after {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
